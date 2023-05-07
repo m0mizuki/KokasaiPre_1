@@ -1,0 +1,53 @@
+#bottomBar{
+    position: absolute;
+    left: 0%;
+    top: 200%;
+    width: 100%;
+    height: 60%;
+    background-color: lightcyan;
+}
+
+#mapSection{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: aquamarine;*/
+}
+
+#map{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -100;
+}
+
+#mapLocation1{
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    background-color: gray;
+    opacity: 50%;
+    top: 17%;
+    left: 42%;
+}
+
+#mapLocation2{
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    background-color: gray;
+    opacity: 50%;
+    top: 28%;
+    left: 50%;
+}
+
+#mapLocation3{
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    background-color: gray;
+    opacity: 50%;
+    top: 8%;
+    left: 58%;
+}

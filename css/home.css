@@ -1,0 +1,124 @@
+#title{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#notTitle{
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    width: 100%;
+}
+
+#bottomBar{
+    position: absolute;
+    left: 0%;
+    top: 200%;
+    width: 100%;
+    height: 60%;
+    background-color: lightcyan;
+}
+
+#kokasaiPoster {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+
+    filter: blur(20px);
+
+    animation-name: kokasaiPoster;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes kokasaiPoster {
+    100% {
+        filter: blur(0px);
+    }
+}
+
+#kokasaiTitle {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 500%;
+    font-weight: 800;
+
+    opacity: 0%;
+
+    animation-name: kokasaiTitle;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes kokasaiTitle {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+        top: 10%;
+    }
+}
+
+#kokasaiTilteExp{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+    font-size: 140%;
+    font-weight: 500;
+
+    opacity: 0%;
+
+    animation-name: kokasaiTitleExp;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes kokasaiTitleExp {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+        top: 60%;
+    }
+}
+
+#kokasaiTitleSub{
+    position: absolute;
+    top: 34%;
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 600;
+
+    opacity: 0%;
+
+    animation-name: kokasaiTitleSub;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes kokasaiTitleSub {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+        top: 24%;
+    }
+}
